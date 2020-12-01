@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5facb584.chunk.css",
+    "main.js": "/Portfolio/static/js/main.155e0fc5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.155e0fc5.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d4d59c43.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d4d59c43.js.map",
+    "static/js/2.b346def3.chunk.js": "/Portfolio/static/js/2.b346def3.chunk.js",
+    "static/js/2.b346def3.chunk.js.map": "/Portfolio/static/js/2.b346def3.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.0a38097217a55608970bba871a675cb7.js": "/Portfolio/precache-manifest.0a38097217a55608970bba871a675cb7.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "/Portfolio/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.b346def3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b346def3.chunk.js.LICENSE.txt",
+    "static/media/calculator.jpg": "/Portfolio/static/media/calculator.2714ac44.jpg",
+    "static/media/fall1.jpeg": "/Portfolio/static/media/fall1.3c852be9.jpeg",
+    "static/media/propic.jpg": "/Portfolio/static/media/propic.2ea8c99d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4d59c43.js",
+    "static/js/2.b346def3.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.155e0fc5.chunk.js"
+  ]
+}
