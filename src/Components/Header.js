@@ -21,9 +21,9 @@ class Header extends Component {
         gurl: "https://github.com/Vigneshraj77",
         gclassName: "fa fa-github",
    }
-      var name = "Vigneshraj S";
-      var occupation=" Final Year CSE Student at Saranathan College of Engineering";
-      var city= "Trichy";
+      const name = "Vigneshraj S";
+      const occupation=" Final Year CSE Student at Saranathan College of Engineering";
+      const city= "Trichy";
       
     
 
