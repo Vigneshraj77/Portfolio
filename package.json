@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "repository":"github:Vigneshraj77/Portfolio",
-  "homepage":"http://Vigneshraj77.github.io/Portfolio",
+  "homepage":"http://Vigneshraj77.github.io/Portfolio/",
   "dependencies": {
     "emailjs-com": "^2.6.4",
     "jquery": "^3.5.1",
