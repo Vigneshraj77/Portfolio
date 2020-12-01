@@ -17,8 +17,8 @@ class About extends Component {
       const zip = "620021";
       const phone= "+918248752201";
       const email = "vigneshrajs71@gmail.com";
-      const resumeDownload = "https://drive.google.com/uc?export=download&id=1nQz0ikf30OBIvgxIJ5juGzAenjnQcogM";
-      const name = "Vigneshraj S";
+      const resumeDownload = "https://drive.google.com/uc?export=download&id=1iKzp1vYcO0jTBDp0Cz4v59hqxItY9_jM"
+          const name = "Vigneshraj S";
     return (
       
       <section id="about">
