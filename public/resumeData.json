@@ -1,0 +1,125 @@
+{
+  "main": {
+    "name": "Vigneshraj S",
+    "occupation": "Final Year CSE Student at Saranathan College of Engineering",
+    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "vigneshrajs71@gmail.com",
+    "phone": "+918248752201",
+    "address": {
+      "street": "77A Thangaiya Nagar,K K Nagar",
+      "city": "Trichy",
+      "state": "Tamil Nadu",
+      "zip": "620021"
+    },
+    "website": "https://drive.google.com/uc?export=download&id=1nQz0ikf30OBIvgxIJ5juGzAenjnQcogM",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1nQz0ikf30OBIvgxIJ5juGzAenjnQcogM",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/vikie.rj7",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/vignesh-raj-777s/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/vignesh._.raj/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Vigneshraj77",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Saranathan College of Engineering",
+        "degree": "Bachelors in Computer Science and Engineering",
+        "graduated": "2021",
+        "description": "With 7.83 CGPA"
+      }
+    ],
+    "work": [
+      {
+        "company": "SteerClear",
+        "title": "React JS Developer",
+        "years": "April 2020 - Present",
+        "description": "worked to develop a E-Commerce website for Fashion products."
+      },
+      {
+        "company": "Lindar Media",
+        "title": "Software Engineer",
+        "years": "Nov 2019 - April 2020",
+        "description": "Building MrQ, a gambling website."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Figma && Adobe XD",
+        "level": "55%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  }
+}
