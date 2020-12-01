@@ -13,7 +13,7 @@ const intern={
     company: "SteerClear",
     title: "React JS Developer",
     years: "April 2020 - July 2020",
-    description: "worked to develop a E-Commerce website for Fashion products."
+    description: "developed an E-Commerce website for Fashion products."
   
 }
 const skills={
@@ -58,7 +58,7 @@ const skills={
       </div>
       <div className="row work">
          <div className="three columns header-col">
-            <h1><span>Intership</span></h1>
+            <h1><span>Internship</span></h1>
          </div>
 
          <div className="nine columns main-col">
