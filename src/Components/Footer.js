@@ -35,6 +35,7 @@ class Footer extends Component {
            
            </ul>
         </div>
+        <li>&copy; All credit goes to Tim Baker - Copyright 2017 Tim Baker</li>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
      </div>
   </footer>
