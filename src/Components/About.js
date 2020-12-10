@@ -5,10 +5,10 @@ class About extends Component {
    var now = new Date();
    var hrs = now.getHours();
    var msg = "";
-   if (hrs <  12 && hrs >= 0) msg = "Good Morning!!";      
-   if (hrs < 15 && hrs > 12 ) msg = "Good Afternoon!!";    
-   if (hrs < 17 && hrs >15)  msg = "Good Evening!!";      
-   if (hrs < 24 && hrs >17 ) msg = "Good Night!!";  
+   if (hrs <=  12 && hrs >= 0) msg = "Good Morning!!";      
+   if (hrs <= 15 && hrs >12 ) msg = "Good Afternoon!!";    
+   if (hrs <= 17 && hrs >15)  msg = "Good Evening!!";      
+   if (hrs <= 24 && hrs >17 ) msg = "Good Night!!";  
       const profilepic= propic;
       const bio = ". I'm Vigneshraj S Final year CSE student from Sarnathan College of Engineering.";
       const street = "77A Thangaiya Nagar, K K Nagar";

@@ -20,7 +20,7 @@ const Contact = ({ data }) => {
    
     const handleClick = (e) => {
        e.preventDefault();
-
+       
        let templateParams = {
          from_name: name,
          userEmail:email,
@@ -31,8 +31,10 @@ const Contact = ({ data }) => {
        emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams,"user_uFk507aNexZvonnDdKMBk")
        .then((response) => {
          console.log('SUCCESS!', response.status, response.text);
+         alert("Mail has been successfully delivered!");
        }, (err) => {
          console.log('FAILED...', err);
+         alert("Mail has not been delivered!")
        });
     }
       
@@ -59,31 +61,31 @@ const Contact = ({ data }) => {
          <div className="row">
             <div className="eight columns">
 
-               <form id="contactForm" name="contactForm"> 
+               <form id="contactForm" name="contactForm" onSubmit={handleClick}> 
 					<fieldset>
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)}/>
+						   <input value={name} type="text" pattern="[A-Za-z]{2-30}" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)} required/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input value={email}  type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={e=> setEmail(e.target.value)}/>
+						   <input value={email}  type="email"  size="35" id="contactEmail" name="contactEmail" onChange={e=> setEmail(e.target.value)} required/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}/>
+						   <input value={subject} type="text"  size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}  />
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <label htmlFor="contactMessage">Message <span className="required" >*</span></label>
+                     <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="contactMessage" required></textarea>
                   </div>
 
                   <div>
-                     <button type='submit'  className="submit" onClick={handleClick} >Submit</button>
+                     <button type='submit'  className="submit" value="Submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
